@@ -1,11 +1,17 @@
 import React from 'react';
-import './build-control.css'
 
-const buildControl = ({label, removed, added, disabled}) => (
+import './build-control.css';
+
+const buildControl = ({label, removed, disabled, added}) => (
     <div className='build-control'>
-        <div className='build label'>{label}</div>
-        <button className='build more' onClick={added} >More</button>
-        <button className='build less' onClick={removed} disabled={disabled}>Less</button>
+        <div className='label'>{label}</div>
+        <button 
+            className='less'
+            onClick={removed}
+            disabled={disabled}>Less</button>
+        <button 
+            className='More'
+            onClick={added}>More</button>
     </div>
 );
 

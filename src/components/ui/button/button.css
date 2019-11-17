@@ -15,10 +15,15 @@
     padding-left: 0;
 }
 
-.success {
+.button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Success {
     color: #5C9210;
 }
 
-.danger {
+.Danger {
     color: #944317;
 }

@@ -17,12 +17,12 @@
     height: 100%;
 }
 
-.tool-logo {
+.Logo {
     height: 80%;
 }
 
 @media (max-width: 499px) {
-    .desktop-only {
+    .DesktopOnly {
         display: none;
     }
 }

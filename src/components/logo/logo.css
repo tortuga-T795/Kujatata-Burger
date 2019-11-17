@@ -1,4 +1,4 @@
-.logo {
+.default-logo {
     background-color: white;
     padding: 8px;
     height: 100%;
@@ -6,6 +6,6 @@
     border-radius: 5px;
 }
 
-.logo img {
+.default-logo img {
     height: 100%;
 }
